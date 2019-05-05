@@ -1,0 +1,18 @@
+1) Listen, ask questions
+Is this ascii? If it's ascii we could have a small array to store the counts of each character.
+    If it's unicode, you should probably just use a hashmap.
+2) Example? [a b c d e ... a]
+   Example2? same as first but with unicode characters
+   Example3? Maybe something too big to fit into memory.
+3) Brute force
+    //Iterate through the list
+        //Do a lookup with array or hashmap
+        //if theres nothing for that character in the datastructure,
+            //add 1 to the array or hashmap at that location
+4) Optimize
+    // Maybe you don't need the whole array or hashmap.
+    // If it's just ascii characters, could store that in a byte.
+        // 0 for that bit in the byte would mean absence, 1 would mean the character exists in the sequence
+5) Walkthrough
+6) Implement
+7) Test

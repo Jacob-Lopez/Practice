@@ -1,0 +1,16 @@
+Given two strings, write a method to decide if one is a permutation of the other.
+
+1) Ask questions.
+    What are the sizes of the strings?
+    Are the strings the same size?
+    Case sensitive?
+2) String vs string, Caramel vs car, eree
+3) Brute force? check each of the characters and see if it's in the other string
+4) Optimize
+    If ascii, create an array of 128 integers (256 if extended ascii), thousands if unicode?
+        each index keeps a count of the number of characters in the list.
+    Iterate through both strings, adding for one, subtracting for the other.
+    We should end up with 0 for each index in the array.
+5) Walkthrough
+6) Implement
+7) Test
